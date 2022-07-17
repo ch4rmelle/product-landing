@@ -22,7 +22,8 @@ ul {
     list-style-type: none;
 }
 
-.right-links, .top-left-txt, .top-sign-up {
+.right-links, .top-left-txt, 
+.top-sign-up {
     font-size: 18px;
 
 }
@@ -43,6 +44,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding: 20px 100px;
+    flex-wrap: wrap;
 }
 
 #logo {
@@ -87,9 +89,8 @@ ul {
     max-width: 500px;
     height: 250px;
     flex: 1;
+    border-radius: 8px;
 }
-
-
 
 .top-sign-up {
     border: none;
@@ -98,3 +99,33 @@ ul {
 
     background-color: #FAE4A2;
 }
+
+/* MID SECTION 1 STYLE */
+.mid-sec-1 {
+    margin-top: 50px;
+    padding-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.ms1-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.icon {
+    height: 200px;
+    width: 200px;
+    border: 3px solid #92B4EC;
+    border-radius: 8px;
+}
+.pics-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
