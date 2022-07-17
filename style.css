@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&family=Poppins:wght@200;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, "Open sans";
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.right-links, .top-left-txt, .top-sign-up {
+    font-size: 18px;
+
+}
+
+
+/* TOP SECTION STYLE */
+.top {
+    background-color: #92B4EC;
+}
+.top-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;
+    margin: auto;
+}
+.header, .top-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+#logo {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.links {
+    color: white;
+}
+
+.top-content {
+    margin-top: 25px;
+    padding-bottom: 60px;
+
+    align-items: flex-start;
+}
+
+.right-links {
+    display: flex;
+    gap: 20px;
+
+}
+
+.top-title {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.top-left-txt, .top-sign-up {
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+.top-left {
+    flex: 1;
+    max-width: 600px;
+}
+
+.top-image {
+    max-width: 500px;
+    height: 250px;
+    flex: 1;
+}
+
+
+
+.top-sign-up {
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+
+    background-color: #FAE4A2;
+}
