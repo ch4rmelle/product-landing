@@ -1,4 +1,4 @@
 # product-landing
-This is a mock up for a skincare product line.
+A webpage for a skincare product line. The webpage is styled using flexbox.
 
-Note: It is not responsive with mobile.
+Note: It is not responsive with mobile yet.
