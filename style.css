@@ -24,7 +24,7 @@ ul {
 
 .right-links, .top-left-txt, 
 .top-sign-up, .quote-author, 
-.cta-text {
+.cta-text, .cta-btn {
     font-size: 18px;
 
 }
@@ -192,6 +192,10 @@ ul {
     border: 2px solid white;
     padding: 10px 25px;
     border-radius: 8px;
+}
+
+.cta-btn:hover, .top-sign-up:hover {
+    padding: 12px 27px;
 }
 
 .footer {
